@@ -79,7 +79,7 @@ getMessage: async (key) => ( opts.store.loadMessage(/** @type {string} */(key.re
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['Dorrat-Termux','Safari','9.7.0']
+browser: ['Aleizn-MD','Safari','9.7.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -122,7 +122,7 @@ if (update.qr != 0 && update.qr != undefined) {
 console.log(chalk.yellow('▣════════[ Escanea este codigo QR ]═══════════\nel codigo QR expira en 60 segundos.'))
 }
 if (connection == 'open') {
-console.log(chalk.yellow('╭──────────────────────────────✧•°•°···\n│➢ 𝐁𝐎𝐓 𝐂𝐎𝐍𝐄𝐂𝐓𝐀𝐃𝐎 𝐂𝐎𝐑𝐑𝐄𝐂𝐓𝐀𝐌𝐄𝐍𝐓𝐄 ☑️\n│❏ 𝐁𝐎𝐓 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐃𝐎:𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃 ☑️\n╰──────────────────────────────✧•°•°···'))}
+console.log(chalk.yellow('╭──────────────────────────────✧•°•°···\n│➢ 𝐁𝐎𝐓 𝐂𝐎𝐍𝐄𝐂𝐓𝐀𝐃𝐎 𝐂𝐎𝐑𝐑𝐄𝐂𝐓𝐀𝐌𝐄𝐍𝐓𝐄 ☑️\n│❏ 𝐁𝐎𝐓 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐃𝐎:𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃 ☑️\n╰──────────────────────────────✧•°•°···'))}
 if (connection == 'close') {
 console.log(chalk.yellow(`▣════════[ Conexion cerrada ]═══════════\npor favor borre la carpeta ${global.authFile} y reescanee el codigo QR`))}
 }
