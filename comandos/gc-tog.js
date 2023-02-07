@@ -11,9 +11,9 @@ teks += `┣✉️ @${mem.id.split('@')[0]}\n`}
 teks += `└𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
-handler.help = ['tagall <mesaje>','invocar <mesaje>']
+handler.help = ['tog <mesaje>','jenta <mesaje>']
 handler.tags = ['group']
-handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
+handler.command = /^(tog|jenta)$/i
 handler.admin = true
 handler.group = true
 export default handler
