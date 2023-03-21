@@ -7,15 +7,15 @@
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd && termux-setup-storage
-> apt-get update -y && apt-get upgrade -y
-> pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
-> git clone https://github.com/aleizn/Perma
-> yarn install
-> npm install
-> npm update
-> npm install
-> npm start
+ > cd && termux-setup-storage
+ > apt-get update -y && apt-get upgrade -y
+ > pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
+ > git clone https://github.com/aleizn/Perma
+ > yarn install
+ > npm install
+ > npm update
+ > npm install
+ > npm start
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾`
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
